@@ -1,0 +1,140 @@
+body {
+   font-size: 16px;
+   font-weight: 400;
+   font-family: 'Roboto', sans-serif;
+   background-color: #5c5b5b;
+   color: #dbdbdb;
+   max-width: 75%;
+   margin: auto;
+}
+
+.avatar {
+    border-radius: 20px;
+    margin: 0px;
+
+}
+
+.me {
+    background-color: #545454;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.mee {
+    padding-left: 30px;
+}
+
+.edutable {
+    width: 100%;
+}
+
+.edutable td {
+    margin-bottom: 10px;
+}
+
+.grey {
+    color: gray;
+}
+
+a {
+    color: #dbdbdb;
+}
+
+a:visited {
+    color:gray;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+.social {
+    background-color: #545454;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.hobbie {
+    background-color: #545454;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.education {
+    background-color: #545454;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.form label{
+    display: block;
+    font-size: 14px;
+    color: #dbdbdb;
+    
+}
+
+.form input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: solid 2px black;
+    padding-bottom: 20px;
+    font-family: inherit;
+    background: transparent;
+    outline: none;
+}
+
+.form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: solid 2px black;
+    padding-bottom: 20px;
+    font-family: inherit;
+    background: transparent;
+    outline: none;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-email {
+    width: 50%;
+    margin-right: 0px;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 0.7;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
